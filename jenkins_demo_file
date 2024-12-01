@@ -12,5 +12,9 @@ node
     stage("Deploy"){
         
         echo "Deploy done successfully" 
+def currentDate = new Date()
+                    def formattedDate = currentDate.format("yyyy-MM-dd HH:mm:ss")
+                    echo"hello" 
+                    echo "Current Date and Time: ${formattedDate}"
     }
 }
